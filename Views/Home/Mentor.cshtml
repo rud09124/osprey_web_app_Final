@@ -1,0 +1,200 @@
+﻿@model List<osprey_web_app.Models.Mentor>
+
+<div class="mentor-container">
+    <h1 class="title">Find your next mentor</h1>
+
+    <!-- Search Bar -->
+    <div class="search-bar-container">
+        <input type="text" id="searchInput" class="search-bar" placeholder="Search by name, industry, or role">
+    </div>
+
+    <!-- Filter Buttons -->
+    <div class="filters">
+        <button class="filter-btn active" data-category="all">All</button>
+        <button class="filter-btn" data-category="sports">Sports</button>
+        <button class="filter-btn" data-category="entertainment">Entertainment</button>
+        <button class="filter-btn" data-category="technology">Technology</button>
+    </div>
+
+    <!-- New Mentor Button -->
+    <button class="new-mentor-btn" onclick="openMentorForm()">+ New Mentor</button>
+
+    <h2 class="mentors-title">Mentors</h2>
+
+    <!-- Mentor List -->
+    <div class="mentor-list" id="mentorList">
+        @if (Model != null && Model.Any())
+        {
+            @foreach (var mentor in Model)
+            {
+                        <div class="mentor-card" data-category="@mentor.Category">
+                            <img src="@mentor.ImageUrl" alt="@mentor.Name">
+                            <div class="mentor-info">
+                                <h3>@mentor.Name</h3>
+                                <p>@mentor.Specialization</p>
+                            </div>
+                            <button class="connect-btn">Connect</button>
+                        </div>
+            }
+        }
+        else
+        {
+                <p>No mentors found.</p>  <!-- Display if no mentors exist -->
+        }
+    </div>
+</div>
+
+<!-- Mentor Form (Hidden by Default) -->
+<div id="mentorForm">
+    <span class="close" onclick="closeMentorForm()">&times;</span>
+    <h2>Add New Mentor</h2>
+    <form id="mentorFormElement" method="post" action="/Mentor/AddMentor">
+        @Html.AntiForgeryToken()  <!-- ✅ REQUIRED for CSRF protection -->
+
+        <label for="Name">Name:</label>
+        <input type="text" name="Name" id="Name" required>
+
+        <label for="Category">Category:</label>
+        <select name="Category" id="Category">
+            <option value="sports">Sports</option>
+            <option value="entertainment">Entertainment</option>
+            <option value="technology">Technology</option>
+            <option value="finance">Finance</option>
+        </select>
+
+        <label for="Specialization">Specialization:</label>
+        <input type="text" name="Specialization" id="Specialization" required>
+
+        <label for="ImageUrl">Image URL:</label>
+        <input type="text" name="ImageUrl" id="ImageUrl" placeholder="Paste image link" required>
+
+        <button class="submit_mentor" type="submit">Save Mentor</button>
+    </form>
+    
+</div>
+
+<!-- JavaScript -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    window.openMentorForm = function() {
+        document.getElementById("mentorForm").style.display = "block";
+        document.body.style.overflow = "hidden"; // Prevent scrolling when form is open
+    }
+
+    window.closeMentorForm = function() {
+        document.getElementById("mentorForm").style.display = "none";
+        document.body.style.overflow = "auto"; // Restore scrolling after form is closed
+    }
+
+    function filterMentors() {
+    const searchQuery = document.getElementById("searchInput").value.toLowerCase();
+    const category = document.querySelector(".filter-btn.active").getAttribute("data-category");
+    const mentorCards = document.querySelectorAll(".mentor-card");
+
+    mentorCards.forEach(card => {
+        const mentorCategory = card.getAttribute("data-category");
+        const mentorName = card.querySelector("h3").innerText.toLowerCase();
+        const mentorSpecialization = card.querySelector("p").innerText.toLowerCase();
+
+        const matchesCategory = category === "all" || mentorCategory === category;
+        const matchesSearchQuery = mentorName.includes(searchQuery) || mentorSpecialization.includes(searchQuery);
+
+        // Toggle visibility class instead of changing display directly
+        card.classList.toggle('hidden', !(matchesCategory && matchesSearchQuery));
+    });
+}
+
+    document.getElementById("searchInput").addEventListener("keyup", filterMentors);
+
+    document.querySelectorAll(".filter-btn").forEach(button => {
+        button.addEventListener("click", function () {
+            document.querySelectorAll(".filter-btn").forEach(btn => btn.classList.remove("active"));
+            this.classList.add("active");
+            filterMentors();
+        });
+    });
+});
+</script>
+
+<!-- CSS -->
+<style>
+#mentorForm {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #281a33;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    width: 60%;
+    max-width: 600px;
+    color: white; /* Text color changed to white */
+}
+
+#mentorForm label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+#mentorForm input,
+#mentorForm select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #362447; /* Changed input field color */
+    color: white;
+}
+
+#mentorForm button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+#mentorForm button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Background overlay for form */
+#mentorForm:target {
+    display: block;
+}
+
+#mentorForm:target::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+/* Close button */
+#mentorForm .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ccc;
+    cursor: pointer;
+}
+
+#mentorForm .close:hover {
+    color: #000;
+}
+</style>

@@ -1,0 +1,106 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="dashboard-container">
+    <main class="content">
+        <h1>Hello, @ViewBag.FirstName</h1>
+
+        <p class="firstline">You’re making great progress. Keep it up!</p>
+
+        <!-- Upcoming Workshops -->
+        <section class="workshops">
+            <h2>Upcoming workshops</h2>
+            <br />
+
+            @if (ViewBag.Workshops != null && ViewBag.Workshops.Count > 0)
+            {
+                int count = 0; // Ensure only 2 workshops are displayed
+                @foreach (var workshop in ViewBag.Workshops)
+                {
+                    if (count == 2) { break; } // Stop after displaying 2 workshops
+
+                    <div class="workshop-card workshop-card-with-image">
+                        <div class="text-content">
+                            <p class="title">@workshop.Title</p>
+                            <p class="date">@workshop.Date.ToString("dddd, MMMM dd")</p>
+
+                            @if (User.Identity.IsAuthenticated)
+                            {
+                                <!-- RSVP Form -->
+                                <form asp-controller="Workshop" asp-action="RSVP" method="post" class="rsvp-form">
+                                    <input type="hidden" name="WorkshopId" value="@workshop.Id" />
+                                    <input class="whatsapp_number" type="text" name="WhatsAppNumber" placeholder="Enter WhatsApp Number" required />
+                                    <button type="submit" class="btn1">RSVP</button>
+                                </form>
+                            }
+                            else
+                            {
+                                <p><a asp-area="Identity" asp-page="/Account/Login">Login to RSVP</a></p>
+                            }
+                        </div>
+
+                        <!-- Static Images for Workshops -->
+                        @if (count == 0)
+                        {
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt9BfQ13bKD5yrPkHpPKZyvbbgTNNeBdt-_g&s"
+                                 class="side-image"
+                                 alt="Workshop illustration">
+                        }
+                        else
+                        {
+                            <img src="https://www.goingconcern.com/wp-content/uploads/2023/10/PwC-OpenAI-partnership-885x500.jpg"
+                                 class="side-image"
+                                 alt="Workshop illustration">
+                        }
+                    </div>
+
+                    count++;
+                }
+            }
+            else
+            {
+                <p>No upcoming workshops available.</p>
+            }
+        </section>
+
+        <!-- Mentorship Progress -->
+        <section class="mentorship">
+            <h2>Mentorship progress</h2>
+            <p>Your mentorship progress</p>
+            <div class="progress" style="height: 10px;">
+                <div class="progress-bar bg-purple" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <p class="progress-text">You're almost there!</p>
+            <br />
+        </section>
+
+        <!-- Scholarship Alerts -->
+        <section class="scholarships">
+            <h2>Scholarship alerts</h2>
+            <p class="sc_option"><a href="#">2 new opportunities</a></p>
+
+            <div class="scholarship-card scholarship-card-with-image">
+                <div class="text-content">
+                    <p class="title">2022 Women’s Sports Foundation Scholarships</p>
+                    <p class="date">Applications due January 24, 2022</p>
+                    <button class="btn">Apply now</button>
+                </div>
+                <img src="https://cdn.usegalileo.ai/sdxl10/17f6c25f-3a6f-40c8-9abd-1714fbbe309f.png"
+                     class="side-image"
+                     alt="Scholarship illustration">
+            </div>
+
+            <div class="scholarship-card scholarship-card-with-image">
+                <div class="text-content">
+                    <p class="title">Women in Sports Tech Scholarships</p>
+                    <p class="date">Applications due February 15, 2022</p>
+                    <button class="btn">Apply now</button>
+                </div>
+                <img src="https://cdn.usegalileo.ai/sdxl10/d3544a80-5491-4140-9aba-b08686d8db52.png"
+                     class="side-image"
+                     alt="Scholarship illustration">
+            </div>
+        </section>
+    </main>
+</div>

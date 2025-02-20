@@ -1,0 +1,176 @@
+﻿@{
+    ViewData["Title"] = "About";
+}
+
+
+<div class="about-container">
+    <img src="https://cdn.usegalileo.ai/sdxl10/43db6121-7d8d-4eb9-8e06-a23a84778cdc.png" 
+         alt="About Osprey" 
+         class="about-image">
+
+    <h1>About Osprey</h1>
+    <p>
+        Osprey is a women's sportswear brand that celebrates the power of women in sports and entertainment. 
+        We create high-quality, stylish activewear that helps women feel confident, comfortable, and strong. 
+        Our mission is to empower women to be their best selves, on and off the field.
+    </p>
+
+    <h2>Our Mission and Vision</h2>
+
+    <div class="timeline">
+        <div class="event">
+            <span class="icon">♀</span>
+            <p><strong>Osprey is founded by Emily Chang</strong></p>
+            <p class="year">2020</p>
+        </div>
+        <div class="event">
+            <span class="icon">♀</span>
+            <p><strong>Osprey launches its first collection</strong></p>
+            <p class="year">2021</p>
+        </div>
+        <div class="event">
+            <span class="icon">♀</span>
+            <p><strong>Osprey partners with the Women's Sports Foundation</strong></p>
+            <p class="year">2022</p>
+        </div>
+    </div>
+
+    <h2>Empowering Women in Sports and Entertainment</h2>
+
+    <div class="stats-container">
+        <div class="stat-card">
+            <p>Women make up 40% of all athletes</p>
+            <h3>40%</h3>
+            <p class="increase">+10%</p>
+        </div>
+        <div class="stat-card">
+            <p>Only 4% of sports media coverage is dedicated to women's sports</p>
+            <h3>4%</h3>
+            <p class="decrease">-5%</p>
+        </div>
+        <div class="stat-card">
+            <p>Women earn 80 cents for every dollar earned by male athletes</p>
+            <h3>80%</h3>
+            <p class="increase">+5%</p>
+        </div>
+        <div class="stat-card">
+            <p>Only 20% of sports executives are women</p>
+            <h3>20%</h3>
+            <p class="increase">+5%</p>
+        </div>
+    </div>
+    <br />
+    <h2>Our Partners</h2>
+    <div class="bottom-images">
+        
+    <img src="https://cdn.usegalileo.ai/sdxl10/3d1162ee-e73b-4131-aeec-18522f76a0eb.png" 
+         alt="Osprey Collection 1" class="bottom-image">
+    <img src="https://cdn.usegalileo.ai/sdxl10/71da6a7c-42a2-42f3-a64a-e95146a7c3b5.png" 
+         alt="Osprey Collection 2" class="bottom-image">
+    <img src="https://cdn.usegalileo.ai/sdxl10/8b772978-430b-43b5-87cb-c69a014086f1.png" 
+         alt="Osprey Collection 3" class="bottom-image">
+    <img src="https://cdn.usegalileo.ai/sdxl10/5eb054f5-0fbf-496d-9373-edc7f5f4b899.png" 
+         alt="Osprey Collection 3" class="bottom-image">
+    <img src="https://cdn.usegalileo.ai/sdxl10/b093e3b4-4adc-40ea-adc0-2f6fef61dbef.png" 
+         alt="Osprey Collection 3" class="bottom-image">
+    <img src="https://cdn.usegalileo.ai/sdxl10/c9834378-5524-4783-b87c-b29ced0c4ed0.png" 
+         alt="Osprey Collection 3" class="bottom-image">
+</div>
+</div>
+
+<style>
+    .about-image {
+    width: 100%; /* Adjust to your layout */
+    height: 200px; /* Set a fixed height */
+    object-fit: cover; /* Ensures the image fills the space */
+    object-position: center mid; /* Adjust to show the part you need */
+    border-radius: 10px; /* Optional: Adds rounded corners */
+    margin-bottom:30px;
+}
+
+    .about-container {
+        max-width: 900px;
+        margin: auto;
+        text-align: center;
+        color: #fff;
+        background-color: #1b1122;
+        padding: 40px;
+        border-radius: 10px;
+    }
+
+    h1, h2 {
+        color: #ffffff;
+    }
+
+    .timeline {
+        margin: 30px 0;
+    }
+
+    .event {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 15px;
+    }
+
+    .icon {
+        font-size: 20px;
+    }
+
+    .year {
+        color: #aaa;
+    }
+
+    .stats-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 15px;
+        margin-top: 30px;
+    }
+
+    .stat-card {
+        background: #27293d;
+        padding: 15px;
+        border-radius: 8px;
+        text-align: center;
+        color: #fff;
+    }
+
+    .stat-card h3 {
+        font-size: 24px;
+        margin: 5px 0;
+    }
+
+    .increase {
+        color: #28a745;
+    }
+
+    .decrease {
+        color: #dc3545;
+    }
+    .bottom-images {
+    display: flex;
+    justify-content: center; /* Centers the images */
+    align-items: center;
+    gap: 15px; /* Space between images */
+    flex-wrap: wrap; /* Allows responsiveness */
+    margin-top: 40px;
+    padding: 20px;
+}
+
+/* Individual image styling */
+.bottom-image {
+    width: 200px; /* Change width as needed */
+    height: 100px; /* Change height as needed */
+    object-fit: cover; /* Ensures proper cropping */
+    border-radius: 10px; /* Smooth corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.bottom-image:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}on: transform 0.3s ease-in-out;
+
+</style>

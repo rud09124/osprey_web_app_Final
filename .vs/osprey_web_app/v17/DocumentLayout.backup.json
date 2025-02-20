@@ -1,0 +1,405 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rudra\\OneDrive\\Documents\\osprey_web_app[1]\\osprey_web_app\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{57FA3103-A8A5-44AC-BB07-F116B9ABBDF5}|osprey_web_app.csproj|c:\\users\\rudra\\onedrive\\documents\\osprey_web_app[1]\\osprey_web_app\\views\\home\\workshops.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57FA3103-A8A5-44AC-BB07-F116B9ABBDF5}|osprey_web_app.csproj|solutionrelative:views\\home\\workshops.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57FA3103-A8A5-44AC-BB07-F116B9ABBDF5}|osprey_web_app.csproj|c:\\users\\rudra\\onedrive\\documents\\osprey_web_app[1]\\osprey_web_app\\views\\home\\mentor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57FA3103-A8A5-44AC-BB07-F116B9ABBDF5}|osprey_web_app.csproj|solutionrelative:views\\home\\mentor.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57FA3103-A8A5-44AC-BB07-F116B9ABBDF5}|osprey_web_app.csproj|c:\\users\\rudra\\onedrive\\documents\\osprey_web_app[1]\\osprey_web_app\\controllers\\mentorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57FA3103-A8A5-44AC-BB07-F116B9ABBDF5}|osprey_web_app.csproj|solutionrelative:controllers\\mentorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57FA3103-A8A5-44AC-BB07-F116B9ABBDF5}|osprey_web_app.csproj|c:\\users\\rudra\\onedrive\\documents\\osprey_web_app[1]\\osprey_web_app\\controllers\\workshopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57FA3103-A8A5-44AC-BB07-F116B9ABBDF5}|osprey_web_app.csproj|solutionrelative:controllers\\workshopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57FA3103-A8A5-44AC-BB07-F116B9ABBDF5}|osprey_web_app.csproj|c:\\users\\rudra\\onedrive\\documents\\osprey_web_app[1]\\osprey_web_app\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57FA3103-A8A5-44AC-BB07-F116B9ABBDF5}|osprey_web_app.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57FA3103-A8A5-44AC-BB07-F116B9ABBDF5}|osprey_web_app.csproj|c:\\users\\rudra\\onedrive\\documents\\osprey_web_app[1]\\osprey_web_app\\areas\\identity\\data\\osprey_web_appcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57FA3103-A8A5-44AC-BB07-F116B9ABBDF5}|osprey_web_app.csproj|solutionrelative:areas\\identity\\data\\osprey_web_appcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57FA3103-A8A5-44AC-BB07-F116B9ABBDF5}|osprey_web_app.csproj|c:\\users\\rudra\\onedrive\\documents\\osprey_web_app[1]\\osprey_web_app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57FA3103-A8A5-44AC-BB07-F116B9ABBDF5}|osprey_web_app.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57FA3103-A8A5-44AC-BB07-F116B9ABBDF5}|osprey_web_app.csproj|c:\\users\\rudra\\onedrive\\documents\\osprey_web_app[1]\\osprey_web_app\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{57FA3103-A8A5-44AC-BB07-F116B9ABBDF5}|osprey_web_app.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57FA3103-A8A5-44AC-BB07-F116B9ABBDF5}|osprey_web_app.csproj|c:\\users\\rudra\\onedrive\\documents\\osprey_web_app[1]\\osprey_web_app\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57FA3103-A8A5-44AC-BB07-F116B9ABBDF5}|osprey_web_app.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57FA3103-A8A5-44AC-BB07-F116B9ABBDF5}|osprey_web_app.csproj|c:\\users\\rudra\\onedrive\\documents\\osprey_web_app[1]\\osprey_web_app\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57FA3103-A8A5-44AC-BB07-F116B9ABBDF5}|osprey_web_app.csproj|solutionrelative:areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57FA3103-A8A5-44AC-BB07-F116B9ABBDF5}|osprey_web_app.csproj|c:\\users\\rudra\\onedrive\\documents\\osprey_web_app[1]\\osprey_web_app\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{57FA3103-A8A5-44AC-BB07-F116B9ABBDF5}|osprey_web_app.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57FA3103-A8A5-44AC-BB07-F116B9ABBDF5}|osprey_web_app.csproj|c:\\users\\rudra\\onedrive\\documents\\osprey_web_app[1]\\osprey_web_app\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57FA3103-A8A5-44AC-BB07-F116B9ABBDF5}|osprey_web_app.csproj|solutionrelative:views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57FA3103-A8A5-44AC-BB07-F116B9ABBDF5}|osprey_web_app.csproj|c:\\users\\rudra\\onedrive\\documents\\osprey_web_app[1]\\osprey_web_app\\areas\\identity\\data\\osprey_web_appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57FA3103-A8A5-44AC-BB07-F116B9ABBDF5}|osprey_web_app.csproj|solutionrelative:areas\\identity\\data\\osprey_web_appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57FA3103-A8A5-44AC-BB07-F116B9ABBDF5}|osprey_web_app.csproj|c:\\users\\rudra\\onedrive\\documents\\osprey_web_app[1]\\osprey_web_app\\areas\\identity\\pages\\_authlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57FA3103-A8A5-44AC-BB07-F116B9ABBDF5}|osprey_web_app.csproj|solutionrelative:areas\\identity\\pages\\_authlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57FA3103-A8A5-44AC-BB07-F116B9ABBDF5}|osprey_web_app.csproj|c:\\users\\rudra\\onedrive\\documents\\osprey_web_app[1]\\osprey_web_app\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{57FA3103-A8A5-44AC-BB07-F116B9ABBDF5}|osprey_web_app.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57FA3103-A8A5-44AC-BB07-F116B9ABBDF5}|osprey_web_app.csproj|c:\\users\\rudra\\onedrive\\documents\\osprey_web_app[1]\\osprey_web_app\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{57FA3103-A8A5-44AC-BB07-F116B9ABBDF5}|osprey_web_app.csproj|solutionrelative:scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57FA3103-A8A5-44AC-BB07-F116B9ABBDF5}|osprey_web_app.csproj|c:\\users\\rudra\\onedrive\\documents\\osprey_web_app[1]\\osprey_web_app\\migrations\\20250210125210_initial create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57FA3103-A8A5-44AC-BB07-F116B9ABBDF5}|osprey_web_app.csproj|solutionrelative:migrations\\20250210125210_initial create.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57FA3103-A8A5-44AC-BB07-F116B9ABBDF5}|osprey_web_app.csproj|c:\\users\\rudra\\onedrive\\documents\\osprey_web_app[1]\\osprey_web_app\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57FA3103-A8A5-44AC-BB07-F116B9ABBDF5}|osprey_web_app.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57FA3103-A8A5-44AC-BB07-F116B9ABBDF5}|osprey_web_app.csproj|c:\\users\\rudra\\onedrive\\documents\\osprey_web_app[1]\\osprey_web_app\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57FA3103-A8A5-44AC-BB07-F116B9ABBDF5}|osprey_web_app.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57FA3103-A8A5-44AC-BB07-F116B9ABBDF5}|osprey_web_app.csproj|c:\\users\\rudra\\onedrive\\documents\\osprey_web_app[1]\\osprey_web_app\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57FA3103-A8A5-44AC-BB07-F116B9ABBDF5}|osprey_web_app.csproj|solutionrelative:views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57FA3103-A8A5-44AC-BB07-F116B9ABBDF5}|osprey_web_app.csproj|c:\\users\\rudra\\onedrive\\documents\\osprey_web_app[1]\\osprey_web_app\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57FA3103-A8A5-44AC-BB07-F116B9ABBDF5}|osprey_web_app.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57FA3103-A8A5-44AC-BB07-F116B9ABBDF5}|osprey_web_app.csproj|c:\\users\\rudra\\onedrive\\documents\\osprey_web_app[1]\\osprey_web_app\\osprey_web_app.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{57FA3103-A8A5-44AC-BB07-F116B9ABBDF5}|osprey_web_app.csproj|solutionrelative:osprey_web_app.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57FA3103-A8A5-44AC-BB07-F116B9ABBDF5}|osprey_web_app.csproj|c:\\users\\rudra\\onedrive\\documents\\osprey_web_app[1]\\osprey_web_app\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{57FA3103-A8A5-44AC-BB07-F116B9ABBDF5}|osprey_web_app.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 438,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\rudra\\OneDrive\\Documents\\osprey_web_app[1]\\osprey_web_app\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\rudra\\OneDrive\\Documents\\osprey_web_app[1]\\osprey_web_app\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-02-11T16:18:10.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\rudra\\OneDrive\\Documents\\osprey_web_app[1]\\osprey_web_app\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\rudra\\OneDrive\\Documents\\osprey_web_app[1]\\osprey_web_app\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAFECAAAAAAAAAAAIwHECAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-02-06T12:52:58.618Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 312,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WorkshopController.cs",
+              "DocumentMoniker": "C:\\Users\\rudra\\OneDrive\\Documents\\osprey_web_app[1]\\osprey_web_app\\Controllers\\WorkshopController.cs",
+              "RelativeDocumentMoniker": "Controllers\\WorkshopController.cs",
+              "ToolTip": "C:\\Users\\rudra\\OneDrive\\Documents\\osprey_web_app[1]\\osprey_web_app\\Controllers\\WorkshopController.cs",
+              "RelativeToolTip": "Controllers\\WorkshopController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T20:22:33.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "workshops.cshtml",
+              "DocumentMoniker": "C:\\Users\\rudra\\OneDrive\\Documents\\osprey_web_app[1]\\osprey_web_app\\Views\\Home\\workshops.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\workshops.cshtml",
+              "ToolTip": "C:\\Users\\rudra\\OneDrive\\Documents\\osprey_web_app[1]\\osprey_web_app\\Views\\Home\\workshops.cshtml",
+              "RelativeToolTip": "Views\\Home\\workshops.cshtml",
+              "ViewState": "AgIAADkAAAAAAGZmZmbWv0MAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-20T20:19:33.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Mentor.cshtml",
+              "DocumentMoniker": "C:\\Users\\rudra\\OneDrive\\Documents\\osprey_web_app[1]\\osprey_web_app\\Views\\Home\\Mentor.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Mentor.cshtml",
+              "ToolTip": "C:\\Users\\rudra\\OneDrive\\Documents\\osprey_web_app[1]\\osprey_web_app\\Views\\Home\\Mentor.cshtml",
+              "RelativeToolTip": "Views\\Home\\Mentor.cshtml",
+              "ViewState": "AgIAACkAAABAAAAAAAAgwEgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-20T19:52:18.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MentorController.cs",
+              "DocumentMoniker": "C:\\Users\\rudra\\OneDrive\\Documents\\osprey_web_app[1]\\osprey_web_app\\Controllers\\MentorController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MentorController.cs",
+              "ToolTip": "C:\\Users\\rudra\\OneDrive\\Documents\\osprey_web_app[1]\\osprey_web_app\\Controllers\\MentorController.cs",
+              "RelativeToolTip": "Controllers\\MentorController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T19:49:54.379Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\rudra\\OneDrive\\Documents\\osprey_web_app[1]\\osprey_web_app\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\rudra\\OneDrive\\Documents\\osprey_web_app[1]\\osprey_web_app\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-10T20:50:52.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\rudra\\OneDrive\\Documents\\osprey_web_app[1]\\osprey_web_app\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\rudra\\OneDrive\\Documents\\osprey_web_app[1]\\osprey_web_app\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-06T16:56:18.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\rudra\\OneDrive\\Documents\\osprey_web_app[1]\\osprey_web_app\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\rudra\\OneDrive\\Documents\\osprey_web_app[1]\\osprey_web_app\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADAAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-06T16:58:14.137Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\rudra\\OneDrive\\Documents\\osprey_web_app[1]\\osprey_web_app\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\rudra\\OneDrive\\Documents\\osprey_web_app[1]\\osprey_web_app\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAADIAAACAMjMzM/MlwEAAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-06T12:52:09.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\rudra\\OneDrive\\Documents\\osprey_web_app[1]\\osprey_web_app\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\rudra\\OneDrive\\Documents\\osprey_web_app[1]\\osprey_web_app\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-10T21:36:06.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\rudra\\OneDrive\\Documents\\osprey_web_app[1]\\osprey_web_app\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\rudra\\OneDrive\\Documents\\osprey_web_app[1]\\osprey_web_app\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAgwEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T09:47:01.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\rudra\\OneDrive\\Documents\\osprey_web_app[1]\\osprey_web_app\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\rudra\\OneDrive\\Documents\\osprey_web_app[1]\\osprey_web_app\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-10T14:41:56.513Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\rudra\\OneDrive\\Documents\\osprey_web_app[1]\\osprey_web_app\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\rudra\\OneDrive\\Documents\\osprey_web_app[1]\\osprey_web_app\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T11:12:56.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\rudra\\OneDrive\\Documents\\osprey_web_app[1]\\osprey_web_app\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\rudra\\OneDrive\\Documents\\osprey_web_app[1]\\osprey_web_app\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-05T22:03:35.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\rudra\\OneDrive\\Documents\\osprey_web_app[1]\\osprey_web_app\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\rudra\\OneDrive\\Documents\\osprey_web_app[1]\\osprey_web_app\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAkwFYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T14:11:37.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "osprey_web_app.csproj",
+              "DocumentMoniker": "C:\\Users\\rudra\\OneDrive\\Documents\\osprey_web_app[1]\\osprey_web_app\\osprey_web_app.csproj",
+              "RelativeDocumentMoniker": "osprey_web_app.csproj",
+              "ToolTip": "C:\\Users\\rudra\\OneDrive\\Documents\\osprey_web_app[1]\\osprey_web_app\\osprey_web_app.csproj",
+              "RelativeToolTip": "osprey_web_app.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-05T22:03:31.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20250210125210_Initial Create.cs",
+              "DocumentMoniker": "C:\\Users\\rudra\\OneDrive\\Documents\\osprey_web_app[1]\\osprey_web_app\\Migrations\\20250210125210_Initial Create.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250210125210_Initial Create.cs",
+              "ToolTip": "C:\\Users\\rudra\\OneDrive\\Documents\\osprey_web_app[1]\\osprey_web_app\\Migrations\\20250210125210_Initial Create.cs",
+              "RelativeToolTip": "Migrations\\20250210125210_Initial Create.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T12:52:10.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "osprey_web_appContext.cs",
+              "DocumentMoniker": "C:\\Users\\rudra\\OneDrive\\Documents\\osprey_web_app[1]\\osprey_web_app\\Areas\\Identity\\Data\\osprey_web_appContext.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Data\\osprey_web_appContext.cs",
+              "ToolTip": "C:\\Users\\rudra\\OneDrive\\Documents\\osprey_web_app[1]\\osprey_web_app\\Areas\\Identity\\Data\\osprey_web_appContext.cs",
+              "RelativeToolTip": "Areas\\Identity\\Data\\osprey_web_appContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T12:46:48.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "osprey_web_appUser.cs",
+              "DocumentMoniker": "C:\\Users\\rudra\\OneDrive\\Documents\\osprey_web_app[1]\\osprey_web_app\\Areas\\Identity\\Data\\osprey_web_appUser.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Data\\osprey_web_appUser.cs",
+              "ToolTip": "C:\\Users\\rudra\\OneDrive\\Documents\\osprey_web_app[1]\\osprey_web_app\\Areas\\Identity\\Data\\osprey_web_appUser.cs",
+              "RelativeToolTip": "Areas\\Identity\\Data\\osprey_web_appUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-06T19:47:03.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_AuthLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\rudra\\OneDrive\\Documents\\osprey_web_app[1]\\osprey_web_app\\Areas\\Identity\\Pages\\_AuthLayout.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\_AuthLayout.cshtml",
+              "ToolTip": "C:\\Users\\rudra\\OneDrive\\Documents\\osprey_web_app[1]\\osprey_web_app\\Areas\\Identity\\Pages\\_AuthLayout.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\_AuthLayout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-06T13:37:03.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\rudra\\OneDrive\\Documents\\osprey_web_app[1]\\osprey_web_app\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\rudra\\OneDrive\\Documents\\osprey_web_app[1]\\osprey_web_app\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-02-09T09:47:49.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\rudra\\OneDrive\\Documents\\osprey_web_app[1]\\osprey_web_app\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\rudra\\OneDrive\\Documents\\osprey_web_app[1]\\osprey_web_app\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-02-05T22:02:29.143Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

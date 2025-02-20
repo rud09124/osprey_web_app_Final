@@ -1,0 +1,625 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+.form-control {
+    background: rgb(174 147 200 / var(--tw-text-opacity, 0.3));
+    border: none;
+    color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+    margin-bottom: 40px;
+}
+
+.row {
+    margin-bottom: 60px;
+    font-family: Roboto,sans-serif;
+    background-color: #1b1122;
+}
+
+.login-layout-card .account {
+    background-color: #1b1122;
+}
+
+.content h1, h2 {
+    font-weight: bold;
+}
+
+.login-logout-card .card-header {
+    padding: 0px 0px 12px 0px;
+}
+
+.title {
+    font-weight: bold;
+    margin: 0;
+}
+
+.date {
+    --tw-text-opacity: 1;
+    color: rgb(174 147 200 / var(--tw-text-opacity, 1));
+}
+
+.login-logout-card ul.nav-item {
+    margin: 0px 0px -12px 0px;
+}
+
+.login-layout-card li.nav-item {
+    width: 50%;
+}
+
+.login-layout-card a.nav-link {
+    font-size: 1rem;
+    color: #495057;
+    text-align: center;
+    padding: 1rem;
+}
+
+.nav-link {
+    gap: 15px;
+    font-size: 1rem;
+}
+
+.login-layout-card .card-body {
+    padding: 10px 20px;
+}
+/*________________________________________________________________________________________________________________________*/
+/*.sidebar {
+    width: 250px;
+    background: #20142a;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;*/ /* Keeps sidebar fixed */
+/*left: 0;
+    top: 0;
+    bottom: 0;
+}*/
+
+/*     Sidebar Navigation 
+    .sidebar nav ul {
+        list-style: none;
+        padding: 0;
+    }
+
+        .sidebar nav ul li {
+            padding: 15px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            font-size: 16px;
+        }
+
+            .sidebar nav ul li.active {
+                background: #7a40e0;
+                border-radius: 10px;
+            }*/
+
+Buttons
+.new-btn, .settings-btn {
+    background: #7a40e0;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 150px;
+}
+
+.whatsapp_number {
+    padding: 5px;
+    border-radius: 8px;
+    border: none;
+    background: #4a2b5e;
+    color: white;
+}
+
+Main Content
+.content {
+    margin-left: 270px;
+    Space for sidebar padding: 20px;
+    width: calc(100% - 270px);
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+.sc_option {
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+
+Cards
+.workshop-card workshop-card-with-image {
+    /*    background: #2a1e38;*/
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.scholarship-card scholarship-card-with-image {
+    /*    background: #2a1e38;*/
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.workshop-card-with-image, .scholarship-card-with-image {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.firstline {
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.side-image {
+    width: 270px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    background: rgb(174 147 200 / var(--tw-text-opacity, 0.3));
+    /*    --tw-text-opacity: 1;*/
+    color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+    padding: 5px 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 110px;
+    height: 37px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn1 {
+    background: rgb(174 147 200 / var(--tw-text-opacity, 0.3));
+    /*    --tw-text-opacity: 1;*/
+    color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+    padding: 5px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 90px;
+    height: 37px;
+    align-items: center;
+    justify-content: center;
+}
+
+Progress Bar
+.progress-bar {
+    background: #7a40e0;
+    height: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.progress {
+    background-color: #2d1b3d;
+    height: 100%;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.progress-text {
+    font-size: 12px;
+    margin-top: 5px;
+    color: #bbb;
+}
+
+.flex {
+    margin-top: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1a1122;
+    padding: 1rem;
+    min-height: 3.5rem;
+    gap: 1rem;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #362447;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    flex-shrink: 0;
+}
+
+.navbar-collapse {
+    margin-top: 100px;
+}
+
+.icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    fill: white;
+    display: block;
+}
+
+.text {
+    color: white;
+    font-size: 1rem;
+    flex-grow: 1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+
+
+
+/* Optional: If you want the caret container to be a circle */
+/*.caret-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;*/ /* Match icon container width */
+/*height: 2.5rem;*/ /* Match icon container height */
+/*border-radius: 50%;*/ /* Make it a circle */
+/*}*/
+/*___________________________________________________*/
+/*.container {
+    
+    height: 100vh;*/ /* Full viewport height */
+/*}*/
+.row_register {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 100vh; /* Full viewport height */
+}
+
+.register_h1, .headh1 {
+    align-items: center;
+    justify-content: center;
+    /*    text-align: center;*/
+    margin-bottom: 2rem;
+}
+
+.headh1 {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.col-md-4 {
+    align-items: center;
+    width: 40%;
+    background-color: #281a33;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+
+/*.headh1 {
+    text-align:justify;
+    margin-bottom: 2rem;
+
+}*/
+
+/* Style the "Use a local account..." section */
+.headh2 {
+    text-align: center; /* Center the heading */
+    margin-bottom: 1rem;
+    color: #998ab5; /* Lighter color */
+}
+
+hr {
+    border-top: 1px solid #3f2a4c; /* Adjust HR color */
+    margin: 1.5rem 0; /* Add some margin */
+}
+
+.form-floating {
+    margin-bottom: 1.5rem;
+}
+
+.form-control {
+    background-color: #362447;
+    border: none;
+    color: white;
+    padding: 1rem;
+    border-radius: 0.25rem;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between; /* Distributes space evenly */
+    gap: 1rem; /* Adds space between inputs */
+}
+
+    /* Ensure both fields take equal width */
+    .form-row .form-floating {
+        width: 50%;
+    }
+
+.form-floating {
+    margin-bottom: 0;
+}
+
+.form-control:focus {
+    background-color: #362447;
+    box-shadow: none;
+    border-color: #5c3582;
+    outline: none;
+}
+
+.form-control,
+.form-controlf,
+.form-control1 {
+    background-color: #362447; /* Keeps the existing background */
+    border: none;
+    color: white !important; /* Change text color to white */
+    padding: 1rem;
+    border-radius: 0.25rem;
+}
+
+    /* Change placeholder text color */
+    .form-control::placeholder,
+    .form-controlf::placeholder,
+    .form-control1::placeholder {
+        color: rgba(255, 255, 255, 0.5); /* Light gray placeholder */
+    }
+
+/* Change label color */
+.form-floating label {
+    color: white;
+}
+
+.form-label {
+    color: #998ab5;
+}
+
+.checkbox {
+    margin-bottom: 1.5rem;
+}
+
+.btn-primary, .btn_register_page {
+    background-color: #7949b9;
+    border-color: #7949b9;
+}
+
+    .btn-primary:hover {
+        background-color: #623a91;
+        border-color: #623a91;
+    }
+
+    .btn-primary:focus {
+        box-shadow: 0 0 0 0.2rem rgba(121, 73, 185, 0.5);
+    }
+
+.col-md-6 {
+    width: 60%;
+    padding-left: 2rem;
+}
+
+.headh3 {
+    margin-bottom: 1rem;
+}
+
+.btn-primary[name="provider"] {
+    margin-right: 1rem;
+}
+
+a {
+    color: #998ab5;
+    text-decoration: none;
+}
+
+    a:hover {
+        color: #b3a0cc;
+        text-decoration: underline;
+    }
+
+.text-danger {
+    display: none;
+    color: #dc3545;
+}
+
+.validation-summary-errors {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.field-validation-error {
+    color: #dc3545;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+}
+
+/* Specific styles for the "External Logins" section */
+.col-md-6 {
+    border-left: 1px solid #3f2a4c; /* Add a separator line */
+    padding-left: 3rem; /* Increase left padding */
+}
+
+/* Style the external login buttons */
+.btn-primary[name="provider"] {
+    background-color: transparent; /* Make buttons transparent */
+    border: 1px solid #7949b9; /* Add border */
+    color: #998ab5; /* Lighter text color */
+}
+
+    .btn-primary[name="provider"]:hover {
+        background-color: #4f2e69; /* Darker background on hover */
+        border-color: #4f2e69;
+        color: white; /* White text on hover */
+    }
+
+/*_____________________Mentor_________________________________*/
+.mentor-container {
+    max-width: 100%;
+    background: #1b1122;
+    padding: 20px;
+    /*    border-radius: 15px;*/
+}
+
+.mentor-card.hidden {
+    display: none !important; /* Force hide while preserving original flex display */
+}
+
+/* Keep existing mentor-card styles */
+.mentor-card {
+    display: flex;
+    align-items: center;
+    background: #1b1122;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 15px;
+    justify-content: left;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.specialization {
+    --tw-text-opacity: 1;
+    color: rgb(174 147 200 / var(--tw-text-opacity, 1));
+}
+
+.specialization, .mentor_name {
+    margin: 0; /* Remove default margins */
+    padding: 2px 0; /* Add slight padding for spacing */
+    line-height: 1.2; /* Adjust line height for compact text */
+}
+
+.search-bar-container {
+    margin-top: 15px;
+}
+
+.mentor-card img {
+    width: 60px; /* Set a fixed width */
+    height: 60px; /* Set a fixed height */
+    object-fit: cover; /* Ensures the image covers the box without distortion */
+    border-radius: 50%; /* Makes the image circular (optional) */
+    display: block;
+    margin: 0 auto 10px; /* Centers the image */
+}
+
+.search-bar {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background: #4a2b5e;
+    color: white;
+}
+
+.filters {
+    display: flex;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.filter-btn {
+    background: #322b44;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+    .filter-btn.active {
+        background: #6a5acd;
+    }
+
+.mentors-title {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.mentor-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.mentor-card {
+    display: flex;
+    align-items: center;
+    background: #1b1122;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 15px;
+    justify-content: left;
+}
+
+.mentor-info {
+    flex-grow: 1;
+}
+
+.connect-btn {
+    background: #6a5acd;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    justify-items: right;
+}
+/*___________________*/
+
+
+
+.new-mentor-btn {
+    background-color: #6A0DAD;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    color: black;
+    border-radius: 8px;
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.close {
+    cursor: pointer;
+    font-size: 20px;
+    float: right;
+}

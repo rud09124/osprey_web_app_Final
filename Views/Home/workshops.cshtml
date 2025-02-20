@@ -1,0 +1,256 @@
+﻿@model List<Workshop>
+
+@{
+    ViewData["Title"] = "Workshops";
+}
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">@TempData["Success"]</div>
+}
+
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+
+<div class="mentor-container">
+    <div class="header-row">
+        <h1 class="title">Workshops</h1>
+        <button class="new-mentor-btn" onclick="openWorkshopForm()">Create</button>
+    </div>
+
+    <div class="filters">
+        <button class="filter-btn active" data-status="all">All</button>
+        <button class="filter-btn" data-status="upcoming">Upcoming</button>
+        <button class="filter-btn" data-status="past">Past</button>
+        <button class="filter-btn" data-status="joined">Joined</button>
+    </div>
+
+    @if (Model != null && Model.Any())
+    {
+        <div class="mentor-list">
+            @foreach (var workshop in Model)
+            {
+                bool isJoined = ViewBag.JoinedWorkshops != null && ViewBag.JoinedWorkshops.Contains(workshop.Id);
+
+                <div class="workshop-card @(isJoined ? "joined" : "")" data-status="@workshop.Status?.ToLower()" data-date="@workshop.Date.ToString("o")">
+                    <div class="card-header">
+                        <h3>@workshop.Title</h3>
+                        @if (isJoined)
+                        {
+                            <button class="joined-btn">Joined</button>
+                        }
+                        else
+                        {
+                            <button class="connect-btn" onclick="openRSVPModal('@workshop.Id')">RSVP</button>
+                        }
+                    </div>
+                    <div class="card-details">
+                        <span class="workshop-date">@workshop.Date.ToString("MMMM dd, yyyy h:mm tt")</span>
+                        <p class="workshop-description">@workshop.Description</p>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <div class="no-workshops">
+            <p>No workshops available. Create your first workshop!</p>
+        </div>
+    }
+</div>
+<div id="workshopForm" class="modal" style="display: none;">
+    <span class="close" onclick="closeWorkshopForm()">&times;</span>
+    <h2>Create New Workshop</h2>
+    <form method="post" action="/Workshop/Create">
+        @Html.AntiForgeryToken()
+        <label for="Title">Title:</label>
+        <input type="text" name="Title" id="Title" required>
+
+        <label for="Date">Date:</label>
+        <input type="datetime-local" name="Date" id="Date" required>
+
+        <label for="Description">Description:</label>
+        <textarea name="Description" id="Description" required></textarea>
+
+        <button type="submit" class="submit-btn">Create Workshop</button>
+    </form>
+</div>
+<!-- RSVP Modal C:\Users\rudra\OneDrive\Documents\osprey_web_app[1]\osprey_web_app\Views\Home\workshops.cshtml-->
+<div id="rsvpModal" class="modal">
+    <span class="close" onclick="closeRSVPModal()">&times;</span>
+    <h2>RSVP for Workshop</h2>
+    <form id="rsvpForm" method="post" action="/Workshop/RSVP">
+        @Html.AntiForgeryToken()
+        <input type="hidden" id="WorkshopId" name="WorkshopId">
+        <div class="form-group">
+            <label for="WhatsAppNumber">WhatsApp Number:</label>
+            <input type="text" id="WhatsAppNumber" name="WhatsAppNumber" required>
+        </div>
+        <button type="submit" class="submit-btn">Confirm RSVP</button>
+    </form>
+</div>
+
+@section Scripts {
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            document.querySelectorAll('.filter-btn').forEach(button => {
+                button.addEventListener('click', function() {
+                    document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+                    this.classList.add('active');
+                    filterWorkshops();
+                });
+            });
+
+            function filterWorkshops() {
+                const filter = document.querySelector('.filter-btn.active').dataset.status;
+                const workshops = document.querySelectorAll('.workshop-card');
+                const now = new Date();
+
+                workshops.forEach(workshop => {
+                    const workshopDate = new Date(workshop.dataset.date);
+                    const isPast = workshopDate < now;
+                    const isJoined = workshop.classList.contains("joined");
+
+                    const shouldShow = filter === 'all' ||
+                                      (filter === 'past' && isPast) ||
+                                      (filter === 'upcoming' && !isPast) ||
+                                      (filter === 'joined' && isJoined);
+
+                    workshop.style.display = shouldShow ? 'block' : 'none';
+                });
+            }
+
+            filterWorkshops();
+        });
+
+        function openRSVPModal(workshopId) {
+            document.getElementById("WorkshopId").value = workshopId;
+            document.getElementById("rsvpModal").style.display = "block";
+        }
+
+        function closeRSVPModal() {
+            document.getElementById("rsvpModal").style.display = "none";
+        }
+
+        // Fix for "Create" button
+        function openWorkshopForm() {
+            const workshopForm = document.getElementById("workshopForm");
+            if (workshopForm) {
+                workshopForm.style.display = "block";
+            } else {
+                console.error("Workshop form not found!");
+            }
+        }
+
+        function closeWorkshopForm() {
+            const workshopForm = document.getElementById("workshopForm");
+            if (workshopForm) {
+                workshopForm.style.display = "none";
+            }
+        }
+    </script>
+
+}
+
+
+
+
+
+<style>
+    /* Add/Update these styles in your CSS */
+    .workshop-card {
+        background: #281a33;
+        padding: 15px;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #362447;
+    }
+
+    .card-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 12px;
+    }
+
+    .card-details {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .rsvp-btn {
+        background: #6a5acd;
+        color: white;
+        border: none;
+        padding: 8px 20px;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 14px;
+    }
+
+    .workshop-date {
+        color: #ae93c8;
+        font-size: 0.9em;
+    }
+
+    .workshop-description {
+        color: #d0c1e0;
+        font-size: 0.95em;
+        line-height: 1.4;
+        margin: 0;
+    }
+
+    /* Adjust header button alignment */
+    .header-row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    /* Match mentor page spacing */
+    .mentor-list {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    /* Add to CSS */
+    .modal {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #281a33;
+        padding: 20px;
+        border-radius: 8px;
+        color: white;
+        z-index: 1000;
+        width: 80%;
+        max-width: 500px;
+    }
+
+        .modal input, .modal textarea {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0;
+            background: #362447;
+            border: none;
+            color: white;
+            border-radius: 4px;
+        }
+
+    .submit-btn {
+        background: #6a5acd;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+</style>
