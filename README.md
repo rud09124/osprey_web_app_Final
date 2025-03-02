@@ -9,7 +9,10 @@ How to use or run:
 After installing the visual studio 2022 click on run button by selecting option of" IIS Express" from the run dropdown menu.
 Go to laptop search bar and search for SQL Server installation 2022 > Go to installation > install microrsoft mangement sql studio and install all server data tools and mangement tools displayed on screen 
 After that connect to the database and apply migration in visual studio by writing:
-Apply-Migration "Init"
+Apply Migration,
+Enable-Migration
+Add-Migration "Init"
+Update-Database
 and then
 Update-Database
 and then run the program 
